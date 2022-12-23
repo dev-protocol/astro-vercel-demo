@@ -1,9 +1,15 @@
 ---
 import '@devprotocol/clubs-core/styles'
 ---
+
 <!DOCTYPE html>
 <html>
   <body>
     <p class="text-plox-300">Hello</p>
   </body>
 </html>
+
+<script>
+  import { inject } from '@vercel/analytics'
+  inject({ mode: import.meta.env.MODE as 'development' | 'production' })
+</script>
