@@ -5,6 +5,7 @@ import vue from '@astrojs/vue'
 import react from '@astrojs/react'
 import svelte from '@astrojs/svelte'
 import prefetch from '@astrojs/prefetch'
+import vercel from '@astrojs/vercel/serverless'
 
 config()
 
@@ -14,6 +15,8 @@ export default defineConfig({
   server: {
     port: 3000,
   },
+  output: 'server',
+  adapter: vercel(),
   integrations: [
     vue({
       template: {
