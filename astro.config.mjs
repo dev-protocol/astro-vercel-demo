@@ -17,28 +17,4 @@ export default defineConfig({
   },
   output: 'server',
   adapter: vercel(),
-  integrations: [
-    vue({
-      template: {
-        compilerOptions: {
-          isCustomElement: (tag) => tag.includes('-'),
-        },
-      },
-    }),
-    react(),
-    tailwind({
-      config: {
-        path: './tailwind.config.js',
-      },
-    }),
-    svelte(),
-    prefetch({
-      throttle: 10,
-    }),
-  ],
-  vite: {
-    resolve: {
-      conditions: [],
-    },
-  },
 })
