@@ -17,9 +17,5 @@ yarn dev
 example:
 
 ```
-PUBLIC_SITE_URL=https://awesome.your.dao
+PUBLIC_SITE_URL=https://awesome.your.site
 ```
-
-### setup tenants
-
-Fill in the data in `./clubs.ts`.
