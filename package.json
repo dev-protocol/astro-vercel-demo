@@ -8,8 +8,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "lint": "yarn lint:prettier",
-    "lint:prettier": "prettier -w .",
-    "prepare": "husky install"
+    "lint:prettier": "prettier -w ."
   },
   "devDependencies": {
     "@types/dotenv": "8.2.0",
