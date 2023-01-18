@@ -1,13 +1,11 @@
+---
+import { VercelAnalytics } from './components/Analytics'
+---
+
 <!DOCTYPE html>
 <html>
   <body>
     <p>Hello</p>
+    <VercelAnalytics client:load />
   </body>
 </html>
-
-<script>
-  import { inject } from '@vercel/analytics'
-  inject({
-    mode: import.meta.env.MODE === 'production' ? 'production' : 'development',
-  })
-</script>
