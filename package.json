@@ -19,6 +19,7 @@
   "dependencies": {
     "@astrojs/vercel": "2.4.0",
     "@vercel/analytics": "^0.1.6",
+    "@vercel/edge": "^0.2.7",
     "astro": "1.9.1"
   }
 }

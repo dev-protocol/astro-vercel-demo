@@ -611,6 +611,11 @@
   resolved "https://registry.yarnpkg.com/@vercel/analytics/-/analytics-0.1.6.tgz#a1ce184168d8f5ec02e35ec954d84ee68ea01f4b"
   integrity sha512-zNd5pj3iDvq8IMBQHa1YRcIteiw6ZiPB8AsONHd8ieFXlNpLqhXfIYnf4WvTfZ7S1NSJ++mIM14aJnNac/VMXQ==
 
+"@vercel/edge@^0.2.7":
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/@vercel/edge/-/edge-0.2.7.tgz#fc7766af44128b5e624565dce9e14443b5869d83"
+  integrity sha512-pyHPopdvBXcgU8cabwtGCBxmNeU4YDqRTZFqJJYN5UTcTqaI7jc1HtaCPaf4nbapDtLOcqGQWAil6Hz2OMMeiw==
+
 "@vercel/nft@^0.22.1":
   version "0.22.6"
   resolved "https://registry.yarnpkg.com/@vercel/nft/-/nft-0.22.6.tgz#edb30d300bb809c0945ea4c7b87e56f634885541"
